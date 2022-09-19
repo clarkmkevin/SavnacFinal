@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap');
+
+body{
+    background-color: rgb(40, 2, 77);
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1{
+position:absolute;
+left:.7em;
+top:1.3em;
+font-size: 7rem;
+
+}
+
+img{
+position: absolute;
+right: 5em;
+border-radius: 20%;
+top:13em;
+width: 25%;
+
+}
+
+.logo{
+  position: absolute;
+  width: 100px;
+  left: 1em;
+  border-radius: 300px;
+  top: 1em;
+  
+}
+
+h2{
+  position:absolute;
+  left:1.7em;
+  top:6.5em;
+  font-size: 3rem;
+
+}
+
+h3{
+  position: absolute;
+  left: 2.5em;
+  font-size:3.5rem;
+  margin: 0em;
+  top: .5em;
+}
+
+p{
+  position:absolute;
+  left:5em;
+  top:25em;
+  font-size: 1rem;
+
+}
+
+.StudentButton{
+  text-decoration: none;
+  color: rgb(40, 2, 77);
+  position:absolute;
+  left:2.8em;
+  bottom:5em;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+.TeacherButton{
+  text-decoration: none;
+  color: rgb(40, 2, 77);
+  position:absolute;
+  left:13em;
+  bottom:5em;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+.StudentButton:hover {
+  background-color: gray;
+}
+
+.TeacherButton:hover {
+  background-color: gray;
+}

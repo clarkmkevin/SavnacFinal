@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap');
+
+body{
+    background-color:rgb(40, 2, 77);
+    font-family: 'Roboto Slab', serif;
+}
+.pill-nav a {
+
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 100px;
+    margin-left: 3em;
+    position: relative;
+    top: 2em;
+    left: 45em;
+  }
+  
+  .pill-nav a:hover {
+    background-color: white;
+    color: gray;
+  }
+  
+  .pill-nav a.active {
+    background-color: white;
+    color: gray;
+  }
+
+
+  h1{
+    color: white;
+    position: absolute;
+    left: 2.3em;
+    font-size: 3.5rem;
+    top: .3em;
+    margin-top: 0em;
+}
+
+
+
+  .logo{
+    position: absolute;
+    width: 100px;
+    left: 1em;
+    border-radius: 300px;
+    top: 1em;
+    
+  }
+
+h2{
+
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 150px;
+    top: 5em;
+}
+.button{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 100px;
+    margin-left: 3em;
+    border: 2px solid white;
+    position: relative;
+    top: 7em;
+    left:40em;
+}
+
+.button:hover {
+    background-color: white;
+    color: gray;
+  }
+
+
+.modal1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    display: none;
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    max-width: 80%;
+  }
+h3{
+    color: black;
+    position: absolute;
+    top: 1em;
+    left: 5em;
+    font-size: 2rem;
+    
+}
+
+h4{
+  color: black;
+  position: absolute;
+  top: 1em;
+  left: 4.3em;
+  font-size: 2rem;
+
+
+}
+
+
+input[type=text]{
+background: transparent;
+border: none;
+border-bottom: 1px solid #000000;
+border-radius: 0px;
+position: absolute;
+top: 10em;
+left: 9em;
+width: 50%;
+} 
+
+select{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  border-radius: 0px;
+  position: relative;
+  top: 10em;
+  left: 9em;
+  width: 50%;
+  margin: 10px;
+  } 
+
+
+input[type = submit]{
+
+    position: absolute;
+    left: 13em;
+    text-decoration: none;
+    color: white;
+    bottom:2em;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: purple;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-family: 'Roboto Slab', serif;
+    border: none;
+
+}
+
+input[type=submit]:hover{
+    background-color: gray;
+  }
+
+.close-button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 3rem;
+    font-weight: bold;
+    position: absolute;
+    right: 0em;
+}
+
+.modal-bg {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 100%;
+    display: none;
+	position: absolute;
+	top: 0;
+	justify-content: center;
+	align-items: center;
+}
+
+table{
+  font-family: 'Roboto Slab', serif;
+  width: 35%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(65, 62, 62);
+  margin-left: 100px;
+  margin-top: 200px;
+  border-radius: 20px;
+  padding: 20px;
+
+}
+
+table td, table th {
+
+  padding: 10px;
+  
+}

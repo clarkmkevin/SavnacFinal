@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap');
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: grid;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 12em;
+  }
+  input[type=password], select {
+    width:50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: grid;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 12em;
+  }
+  
+  
+  div {
+
+    padding: 20px;
+    width: 50%;
+    position: absolute;
+    left: 0em;
+    background-color: white;
+    height: 60%;
+    bottom: 0em;
+
+  }
+
+  body{
+      background-color:rgb(40, 2, 77);
+      color: white;
+      font-family: 'Roboto Slab', serif;
+
+  }
+
+  .loginbar{
+    position: absolute;
+    top: 0em;
+}
+
+h1{
+    position: absolute;
+    top: 4em;
+    color: rgb(66, 61, 61);
+    left: 6.5em;
+
+}
+
+input[type=text]
+{
+background: transparent;
+border: none;
+border-bottom: 1px solid #000000;
+border-radius: 0px;
+
+}
+input[type=password]
+{
+background: transparent;
+border: none;
+border-bottom: 1px solid #000000;
+border-radius: 0px;
+
+}
+
+.logbutton{
+    text-decoration: none;
+    color: white;
+    position:absolute;
+    left:20em;
+    bottom:10em;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: purple;
+    border-radius: 30px;
+    padding: 10px 20px;
+  }
+
+  .logbutton:hover {
+    background-color: gray;
+  }
+
+  img{
+    position: absolute;
+    right: 3em;
+    border-radius: 20%;
+    top:4em;
+    width: 40%;
+    
+    }
+
+    .signbutton{
+        position:absolute;
+        bottom: 3em;
+        left:27em;
+        text-decoration: none;
+    
+      }
+    
+      .signbutton:hover{
+          font-weight: bold;
+      }
+    
+      p{
+        color: rgb(66, 61, 61);
+        position:absolute;
+        bottom: 2em;
+        left: 14em;
+      }
